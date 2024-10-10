@@ -12,5 +12,10 @@
     </head>
 
     <body>
-        <header>
-            
+        <p>Las webs que más me han gustado de los awards</p>
+        <ol>
+            <li><a href=</lhttps://stripe.dev>Stripe Dot Dev:</a></li>
+            Me ha gustado esta web debido a su estetica minimalista. Hay interacciones cuando pasas el raton por la web, creando asi un fow satisfactorio y una experiencia de usuario divertida. 
+            <li><a href="https://www.periodplanet.ubykotex.com.au/en_au/">Period Planet</a></li>
+            Me gusta la función educativa que tiene una función educativa mediante un juego.
+        </ol>
