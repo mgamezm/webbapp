@@ -16,4 +16,10 @@ body {
     font-family: Arial, sans-serif;
     min-height: 100vh;
     background-color: var(--background);
+    color: var(--foreground);
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: center;
+    align-items: center;
+    padding-top: var(--header-height); /* Use the variable  */
 }
