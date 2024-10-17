@@ -1,0 +1,19 @@
+/* Set the CSS variable based on an estimated height */
+:root {
+    --header-height: 70px; /* Estimate the height */
+    --footer-height: var(--header-height); /* Estimate the height */
+}
+
+/* Basic reset for consistent margins and paddings */
+           
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    background-color: var(--background);
+}
