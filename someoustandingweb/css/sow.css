@@ -23,7 +23,7 @@ header{
     display: flex;
     flex-direction: column; /* Arrange items in a column */
     justify-content:right
-    align-items:center
+    align-items: center
     padding-top: var(--header-height); /* Use the variable  */
 }
 body {
@@ -34,6 +34,6 @@ body {
     display: flex;
     flex-direction: column; /* Arrange items in a column */
     justify-content:right
-    align-items:center
+    align-items: center
     padding-top: var(--header-height); /* Use the variable  */
 }
