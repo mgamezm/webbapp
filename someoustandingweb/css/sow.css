@@ -33,6 +33,5 @@ body {
     display: flex;
     flex-direction: column; /* Arrange items in a column */
     justify-content:right
-    padding-top : var(--header-height); /* Use the variable  */
 
 }
