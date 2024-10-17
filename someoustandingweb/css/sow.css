@@ -24,7 +24,6 @@ header{
     flex-direction: column; /* Arrange items in a column */
     justify-content:right
     align-items: center
-    padding-top: var(--header-height); /* Use the variable  */
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
