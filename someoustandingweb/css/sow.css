@@ -46,9 +46,9 @@ p{
     padding-left: 7px;
 }
 
-images{
-    width: 77%;
-    height: 77%;
+image{
+    width: 20%;
+    height: 20%;
     object-fit: cover;
     display: block;
 }
