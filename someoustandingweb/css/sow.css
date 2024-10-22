@@ -1,7 +1,6 @@
 /* Set the CSS variable based on an estimated height */
 :root {
     --header-height: 8px; /* Estimate the height */
-    --footer-height: var(--header-height); /* Estimate the height */
 }
 
 /* Basic reset for consistent margins and paddings */
@@ -18,7 +17,6 @@ body {
     background-color: var(--background);
     color: --primary;
     display: block;
-    flex-direction: column; /* Arrange items in a column */
-    justify-content:right
+    justify-content:left;
 
 }
