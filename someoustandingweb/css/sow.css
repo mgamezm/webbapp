@@ -11,18 +11,18 @@
 }
 
 header{
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 20vh;
-    display: block;
-    justify-content:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: rgb(94, 7, 7);
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-top: 7px;
+    padding-right: 7px;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-    background-color: var(--background);
-    color: --primary;
-    display: block;
-    justify-content:left;
-
+    font-size:medium ;
+    background-color: rgb(255, 240, 242);
+    
 }
