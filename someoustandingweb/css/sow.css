@@ -1,6 +1,6 @@
 /* Set the CSS variable based on an estimated height */
 :root {
-    --header-height: 100%; /* Estimate the height */
+    --header-height: 8px; /* Estimate the height */
     --footer-height: var(--header-height); /* Estimate the height */
 }
 
