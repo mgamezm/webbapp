@@ -8,8 +8,9 @@
            
 * {
     margin: 0;
-    padding: 60;
+    padding: 50;
     box-sizing: border-box;
+    color: aliceblue;
 }
 
 body {
