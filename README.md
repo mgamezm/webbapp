@@ -1,5 +1,5 @@
-## Demo 
-🦷 You can view my live site at: [https://github.com/mgamezm/webbapp.git]  (https://github.com/mgamezm/webbapp.git)
+## Demo
+You can view my live site at: [webbapp repository](https://github.com/mgamezm/webbapp.git)
 
-## Practica1
-❤ Here are some outstanding webs that I really like: [https://mgamezm.github.io/webbapp/someoustandingweb/index.html]  (https://mgamezm.github.io/webbapp/someoustandingweb/index.html)
+## Practica 1
+Here are some outstanding websites that I really like: [Some Outstanding Web](https://mgamezm.github.io/webbapp/someoustandingweb/index.html)
