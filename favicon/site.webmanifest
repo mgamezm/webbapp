@@ -3,13 +3,13 @@
   "short_name": "MySite",
   "icons": [
     {
-      "src": "/Users/mery/wbp/webbapp/favicon /web-app-manifest-192x192.png",
+      "src": "/webbappmaria/web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/Users/mery/wbp/webbapp/favicon /web-app-manifest-512x512.png",
+      "src": "/webbappmaria/web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
