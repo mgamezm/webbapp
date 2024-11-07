@@ -4,7 +4,7 @@
     padding: 0;
   }
 
-  body {
+.error-message {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 20px ;
     background-color: rgb(255, 250, 250);
