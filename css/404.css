@@ -21,8 +21,12 @@
     100% {
       transform: translateX(-100%); /* Termina fuera de la pantalla a la izquierda */
     }  
+  }
 
-error-code {
-    font-family:
-
+.error-code {
+  font-family: Funnel Display;
+  font-size: 15rem;
+  color: rgb(92, 21, 36);
+  justify-content: center;
+  padding-top: 0%;
 }
