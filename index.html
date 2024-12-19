@@ -14,17 +14,32 @@
   <header>Get to know (ME)ry</header>
   <body>
     <!--texto ejemplo descriptivo-->
-    <div>
+    <div class="introduction-content">
+      <img src="" alt="Imagen introduction" />
       <p>
         Descubre el arte, diseño e ilustración que define su estilo único.
         Explora su historia en About Me y sumérgete en proyectos que inspiran y
         sorprenden.
       </p>
     </div>
+    <!--bottones-->
+    <nav>
+      <button onclick="scrollToSection('aboutme')">01. About me</button>
+      <button onclick="scrollToSection('portfolio')">02. portfolio</button>
+    </nav>
 
-    <div>
-      <p>01. About me</p>
+    <section id="aboutme">
+      <p>01. About Me</p>
+    </section>
+    <section id="portfolio">
       <p>02. Portfolio</p>
-    </div>
+    </section>
+    <script>
+      function scrollToSection(sectionId) {
+        document
+          .getElementById(sectionId)
+          .scrollIntoView({ behavior: "smooth" });
+      }
+    </script>
   </body>
 </html>
