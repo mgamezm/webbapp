@@ -1,13 +1,28 @@
+header {
+  font-family: Pinyon Script;
+  font-weight: normal;
+  font-size: 5em;
+  color: #400000;
+  padding: 10px 0;
+  text-align: left;
+}
 body {
   font-family: Arial, sans-serif;
+  font-size: 18px;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
 }
-header {
-  color: #400000;
-  padding: 10px 0;
-  text-align: left;
+
+.ascii{
+    font-family: monospace;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 nav {
   display: flex;
@@ -31,16 +46,31 @@ nav button:hover {
 section {
   padding: 20px;
 }
-#about,
-#portfolio {
-  min-height: 100vh;
-}
+
 .introduction-content {
   display: flex;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.introduction-content img {
+.introduction-content .text-img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.introduction-content.text-img img {
   margin-right: 20px;
   max-width: 300px;
   height: auto;
+}
+.center-img img {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  height: auto;
+}
+
+h4 {
+  font-family: Pinyon Script;
+  min-height: 100vh;
 }
