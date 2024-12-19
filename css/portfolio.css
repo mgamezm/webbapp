@@ -15,14 +15,14 @@ body {
 }
 
 .ascii{
-    font-family: monospace;
-    text-align: center;
+    font-family: Cutive Mono;
+    font-size: 0.2rem;
+    text-align: left;
     margin: 0;
     padding: 0;
+    margin-right: 2;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 nav {
   display: flex;
