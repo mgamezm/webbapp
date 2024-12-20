@@ -1,57 +1,60 @@
 /* Set the CSS variable based on an estimated height */
 :root {
-    --header-height: 8px; /* Estimate the height */
+  --header-height: 8px; /* Estimate the height */
 }
 
 /* Basic reset for consistent margins and paddings */
-           
-* {
-    margin: 0;
-    padding: 0;
 
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header{
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    font-weight: bolder;
-    color: rgb(68, 2, 2);
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-top: 2px;
-    padding-right: 7px;
+.header-sow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+  color: rgb(68, 2, 2);
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-top: 2px;
+  padding-right: 7px;
 }
 
 body {
-    font-family: Poppins;
-    font-size: 20px ;
-    background-color: rgb(255, 250, 250);
-    padding-left: 10px;
-    padding-bottom: 30px;
+  font-size: 20px;
+  background-color: rgb(255, 250, 250);
+  padding-left: 10px;
+  padding-bottom: 30px;
 }
 
-h1,h2,h3,h4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px ;
-    color: rgb(32, 30, 30);
-    padding-left: 0px;
-    padding-top: 7px;
-    padding-bottom: 7px;
+.text-webs {
+  font-family: Poppins;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(32, 30, 30);
+  padding-left: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
-a{
-    color: rgb(201, 54, 86);
+a {
+  color: rgb(201, 54, 86);
 }
 
-p{
-    padding-left: 7px;
+p {
+  padding-left: 7px;
 }
 
-img{
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-    display: block;
-    justify-content: center;
-    
+img {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  display: block;
+  justify-content: center;
 }

@@ -2,15 +2,6 @@
 /*a lo mejor no hace falta que lo pase
 porque se modifican autometicamente cambiendo el 
 tamaño del body*/
-header {
-  font-family: Pinyon Script;
-  font-weight: normal;
-  font-size: 5em;
-  color: #834f4f;
-  padding: 10px 0;
-  text-align: left;
-}
-
 
 nav {
   display: flex;
@@ -41,7 +32,9 @@ section {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+.introduction-content .text {
+  
+}
 .center-img img {
   display: flex;
   align-items: center;
