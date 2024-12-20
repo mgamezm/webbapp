@@ -1,8 +1,12 @@
+/*header-en media-queries-tamaño txt*/
+/*a lo mejor no hace falta que lo pase
+porque se modifican autometicamente cambiendo el 
+tamaño del body*/
 header {
   font-family: Pinyon Script;
   font-weight: normal;
   font-size: 5em;
-  color: #400000;
+  color: #834f4f;
   padding: 10px 0;
   text-align: left;
 }
@@ -17,11 +21,11 @@ nav button {
   font-size: 1em;
   background-color: transparent;
   border: none;
-  padding: 15px 20px;
+  padding: 2px 20px;
   margin: 5px 0;
   cursor: pointer;
   width: 100%;
-  max-width: 200px;
+  max-width: 400px;
   text-align: left;
 }
 nav button:hover {
@@ -37,16 +41,7 @@ section {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.introduction-content .text-img {
-  display: flex;
-  align-items: center;
-  width: 100%;
-}
-.introduction-content.text-img img {
-  margin-right: 20px;
-  max-width: 300px;
-  height: auto;
-}
+
 .center-img img {
   display: flex;
   align-items: center;
@@ -54,6 +49,7 @@ section {
   height: auto;
 }
 
+/*h4-en media-queries-tamaño txt*/
 h4 {
   font-family: Pinyon Script;
   min-height: 100vh;
