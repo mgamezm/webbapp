@@ -10,6 +10,7 @@ nav {
 }
 nav button {
   font-size: 1em;
+  color: #834f4f;
   background-color: transparent;
   border: none;
   padding: 2px 20px;
@@ -33,7 +34,6 @@ section {
   padding-bottom: 20px;
 }
 .introduction-content .text {
-  
 }
 .center-img img {
   display: flex;
@@ -43,7 +43,3 @@ section {
 }
 
 /*h5-en media-queries-tamaño txt*/
-h5 {
-  font-family: Pinyon Script;
-  min-height: 100vh;
-}
