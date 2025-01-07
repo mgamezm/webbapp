@@ -1,7 +1,7 @@
 /* Mobile Portrait */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
   header {
-    font-family: Pinyon Script;
+    font-family:Edwardian Script ITC;
     font-weight: normal;
     font-size: 5em;
     color: #834f4f;
@@ -37,7 +37,7 @@
 /* Mobile Landscape */
 @media only screen and (max-width: 800px) and (orientation: landscape) {
   header {
-    font-family: Pinyon Script;
+    font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 5em;
     color: #834f4f;
@@ -70,7 +70,7 @@
 /* Tablet Portrait */
 @media only screen and (min-width: 601px) and (max-width: 1200px) and (orientation: portrait) {
   header {
-    font-family: Pinyon Script;
+    font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 4rem;
     color: #834f4f;
@@ -102,7 +102,7 @@
 /* Tablet Landscape */
 @media only screen and (min-width: 801px) and (max-width: 1200px) and (orientation: landscape) {
   header {
-    font-family: Pinyon Script;
+    font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 4rem;
     color: #834f4f;
@@ -135,7 +135,7 @@
 /* Small Desktop */
 @media only screen and (min-width: 1201px) and (max-width: 1600px) {
   header {
-    font-family: Pinyon Script;
+    font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 4rem;
     color: #834f4f;
@@ -167,7 +167,7 @@
 /* Large Desktop */
 @media only screen and (min-width: 1601px) {
   header {
-    font-family: Pinyon Script;
+    font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 7rem;
     color: #834f4f;
