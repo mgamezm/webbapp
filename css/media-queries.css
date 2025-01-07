@@ -1,7 +1,7 @@
 /* Mobile Portrait */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
   header {
-    font-family:Edwardian Script ITC;
+    font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 5em;
     color: #834f4f;
@@ -10,7 +10,7 @@
   }
 
   body {
-    font-family: Arial, sans-serif;
+    font-family: Futura Std Book;
     font-size: 18px;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@
     text-align: left;
   }
   body {
-    font-family: Arial, sans-serif;
+    font-family: Futura Std Book;
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -80,7 +80,7 @@
     text-align: left;
   }
   body {
-    font-family: Arial, sans-serif;
+    font-family: Futura Std Book;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -113,7 +113,7 @@
     text-align: left;
   }
   body {
-    font-family: Arial, sans-serif;
+    font-family: Futura Std Book;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -147,7 +147,7 @@
     text-align: left;
   }
   body {
-    font-family: Arial, sans-serif;
+    font-family: Futura Std Book;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -180,11 +180,10 @@
     text-align: left;
   }
   body {
-    font-family: Arial, sans-serif;
+    font-family: Futura Std Book;
     font-size: 27px;
     margin: 0;
     padding: 0;
-    justify-content: right;
   }
   .ascii {
     font-family: Cutive Mono;
