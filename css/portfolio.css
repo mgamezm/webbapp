@@ -20,7 +20,6 @@ nav button {
   max-width: 400px;
   text-align: left;
 }
-
 nav button:hover {
   text-decoration: underline;
 }
