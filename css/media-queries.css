@@ -16,7 +16,7 @@
     padding: 0;
     justify-content: right;
   }
-  .text{
+  .text {
     font-size: 1.5rem;
   }
   .ascii {
@@ -54,7 +54,7 @@
     padding: 0;
     justify-content: right;
   }
-    .text{
+  .text {
     font-size: 2rem;
     text-align: right;
   }
@@ -91,7 +91,7 @@
     padding: 0;
     justify-content: right;
   }
-  .text{
+  .text {
     font-size: 2.5rem;
     text-align: right;
   }
@@ -127,7 +127,7 @@
     padding: 0;
     justify-content: right;
   }
-  .text{
+  .text {
     font-size: 3rem;
     text-align: right;
   }
@@ -164,7 +164,7 @@
     padding: 0;
     justify-content: right;
   }
-  .text{
+  .text {
     font-size: 3rem;
     text-align: right;
   }
@@ -199,7 +199,7 @@
     margin: 0;
     padding: 0;
   }
-  .text{
+  .text {
     font-size: 3rem;
     text-align: right;
   }
@@ -212,6 +212,11 @@
     margin-right: 2;
     display: flex;
     justify-content: center;
+  }
+  .lamb {
+    font-family: Cutive Mono;
+    font-size: 1rem;
+    text-align: left;
   }
   h5 {
     font-family: Edwardian Script ITC;
