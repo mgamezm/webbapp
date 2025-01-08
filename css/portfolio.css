@@ -24,7 +24,8 @@ nav button:hover {
   text-decoration: underline;
 }
 section {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .introduction-content {
@@ -63,4 +64,9 @@ section {
   margin-right: 10px;
   filter: brightness(0) saturate(100%) invert(28%) sepia(81%) saturate(2766%)
     hue-rotate(306deg) brightness(82%) contrast(97%);
+}
+.texto-aboutme {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
