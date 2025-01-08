@@ -23,10 +23,6 @@ nav button {
 nav button:hover {
   text-decoration: underline;
 }
-section {
-  display: flex;
-  flex-direction: column;
-}
 
 .introduction-content {
   display: flex;
@@ -45,11 +41,18 @@ section {
   height: auto;
 }
 /* Estilos para el contenedor de contenido */
+.aboutme {
+  display: block;
+}
 .aboutme-content {
-  
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+.lamb {
+  margin-right: 2%;
+  text-align: left;
+}
+.texto-aboutme {
+  text-align: justify;
 }
 /* Estilos para los párrafos dentro de texto-aboutme */
 /*h5-en media-queries-tamaño txt*/

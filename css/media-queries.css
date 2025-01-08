@@ -29,6 +29,12 @@
     display: flex;
     justify-content: center;
   }
+
+  .lamb {
+    font-family: Cutive Mono;
+    font-size: 0.3rem;
+    text-align: left;
+  }
   h5 {
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
@@ -68,6 +74,11 @@
     display: flex;
     justify-content: center;
   }
+  .lamb {
+    font-family: Cutive Mono;
+    font-size: 0.3rem;
+    text-align: left;
+  }
   h5 {
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
@@ -105,6 +116,11 @@
     display: flex;
     justify-content: center;
   }
+  .lamb {
+    font-family: Cutive Mono;
+    font-size: 0.3rem;
+    text-align: left;
+  }
   h5 {
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
@@ -140,6 +156,11 @@
     margin-right: 2;
     display: flex;
     justify-content: center;
+  }
+  .lamb {
+    font-family: Cutive Mono;
+    font-size: 0.3rem;
+    text-align: left;
   }
   h5 {
     font-family: Edwardian Script ITC;
@@ -178,6 +199,11 @@
     display: flex;
     justify-content: center;
   }
+  .lamb {
+    font-family: Cutive Mono;
+    font-size: 0.3rem;
+    text-align: left;
+  }
   h5 {
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
@@ -215,8 +241,14 @@
   }
   .lamb {
     font-family: Cutive Mono;
-    font-size: 1rem;
+    font-size: 0.7rem;
     text-align: left;
+    justify-content: center;
+  }
+  .texto-aboutme {
+    font-family: Futura Std Book;
+    font-size: 1.2rem;
+    text-align: right;
   }
   h5 {
     font-family: Edwardian Script ITC;
