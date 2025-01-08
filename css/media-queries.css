@@ -16,6 +16,9 @@
     padding: 0;
     justify-content: right;
   }
+  .text{
+    font-size: 1.5rem;
+  }
   .ascii {
     font-family: Cutive Mono;
     font-size: 0.2rem;
@@ -52,6 +55,10 @@
     padding: 0;
     justify-content: right;
   }
+    .text{
+    font-size: 2rem;
+    text-align: right;
+  }
   .ascii {
     font-family: Cutive Mono;
     font-size: 0.4rem;
@@ -86,6 +93,10 @@
     padding: 0;
     justify-content: right;
   }
+  .text{
+    font-size: 2.5rem;
+    text-align: right;
+  }
   .ascii {
     font-family: Cutive Mono;
     font-size: 0.6rem;
@@ -118,6 +129,10 @@
     margin: 0;
     padding: 0;
     justify-content: right;
+  }
+  .text{
+    font-size: 3rem;
+    text-align: right;
   }
   .ascii {
     font-family: Cutive Mono;
@@ -153,6 +168,10 @@
     padding: 0;
     justify-content: right;
   }
+  .text{
+    font-size: 3rem;
+    text-align: right;
+  }
   .ascii {
     font-family: Cutive Mono;
     font-size: 0.6rem;
@@ -184,6 +203,10 @@
     font-size: 27px;
     margin: 0;
     padding: 0;
+  }
+  .text{
+    font-size: 3rem;
+    text-align: right;
   }
   .ascii {
     font-family: Cutive Mono;

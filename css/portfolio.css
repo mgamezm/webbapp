@@ -29,11 +29,13 @@ section {
 
 .introduction-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.introduction-content .text {
+.text {
+  align-content: right;
 }
 .center-img img {
   display: flex;
@@ -41,5 +43,24 @@ section {
   max-width: 500px;
   height: auto;
 }
-
 /*h5-en media-queries-tamaño txt*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.footer a {
+  display: flex;
+  align-items: left;
+  text-decoration: none;
+  color: inherit;
+}
+.footer img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  filter: brightness(0) saturate(100%) invert(28%) sepia(81%) saturate(2766%)
+    hue-rotate(306deg) brightness(82%) contrast(97%);
+}
