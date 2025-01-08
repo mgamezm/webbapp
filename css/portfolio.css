@@ -2,20 +2,21 @@
 /*a lo mejor no hace falta que lo pase
 porque se modifican autometicamente cambiendo el 
 tamaño del body*/
-body{
-  background-color: #F3AACC;
+body {
+  background-color: #f3aacc;
 }
-header{
-  color: #E72380;
+header {
+  color: #e72380;
 }
 nav {
   display: flex;
   flex-direction: column;
   justify-content: left;
+  margin-top: 10%;
 }
 nav button {
   font-size: 1em;
-  color: #834f4f;
+  color: #e72380;
   background-color: transparent;
   border: none;
   padding: 2px 20px;
