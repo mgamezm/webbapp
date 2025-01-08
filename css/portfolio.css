@@ -37,28 +37,48 @@ nav button:hover {
   padding-top: -20px;
   padding-bottom: 20px;
 }
+
+/*cambio color en hover*/
+.ascii{
+  color: black;
+}
+.ascii:hover{
+  color: #e72380;
+}
+
+/* */
 .text {
   align-content: right;
 }
-.center-img img {
-  display: flex;
-  align-items: center;
-  max-width: 500px;
-  height: auto;
+
+/*efecto ascii del medio*/
+.ascii-med{
+  color: black;
 }
-/* Estilos para el contenedor de contenido */
+.ascii-med:hover{
+  color: #e72380;
+}
+
 .aboutme {
   display: block;
 }
 .aboutme-content {
   display: flex;
 }
+
+/*efecto de cambio de color*/
 .lamb {
   margin-right: 2%;
   text-align: left;
 }
+.lamb:hover {
+  color: #e72380
+}
+
+/* */
 .texto-aboutme {
-  text-align: justify;
+  text-align: left;
+
 }
 /* Estilos para los párrafos dentro de texto-aboutme */
 /*h5-en media-queries-tamaño txt*/

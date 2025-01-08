@@ -15,6 +15,7 @@
     padding: 0;
     justify-content: right;
   }
+
   .text {
     font-size: 1.5rem;
   }
@@ -27,12 +28,26 @@
     margin-right: 2;
     display: flex;
     justify-content: center;
+    color: #000000;
   }
-
+  .ascii-med {
+    font-family: Cutive Mono;
+    font-size: 0.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    color: #000000;
+  }
+  .aboutme-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .lamb {
     font-family: Cutive Mono;
     font-size: 0.3rem;
     text-align: left;
+    color: #000000;
   }
   h5 {
     font-family: Edwardian Script ITC;
@@ -71,6 +86,19 @@
     margin-right: 2;
     display: flex;
     justify-content: center;
+  }
+  .ascii-med {
+    font-family: Cutive Mono;
+    font-size: 0.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    color: #000000;
+  }
+  .aboutme-content {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .lamb {
     font-family: Cutive Mono;
@@ -113,6 +141,19 @@
     display: flex;
     justify-content: center;
   }
+  .ascii-med {
+    font-family: Cutive Mono;
+    font-size: 0.25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    color: #000000;
+  }
+  .aboutme-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .lamb {
     font-family: Cutive Mono;
     font-size: 0.3rem;
@@ -152,6 +193,19 @@
     margin-right: 2;
     display: flex;
     justify-content: center;
+  }
+  .ascii-med {
+    font-family: Cutive Mono;
+    font-size: 0.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    color: #000000;
+  }
+  .aboutme-content {
+    display: flex;
+    flex-direction: column-reverse;
   }
   .lamb {
     font-family: Cutive Mono;
@@ -194,6 +248,19 @@
     display: flex;
     justify-content: center;
   }
+  .ascii-med {
+    font-family: Cutive Mono;
+    font-size: 0.2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    color: #000000;
+  }
+  .aboutme-content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .lamb {
     font-family: Cutive Mono;
     font-size: 0.3rem;
@@ -233,7 +300,7 @@
     justify-content: center;
   }
   .ascii-med {
-    font-family: "Courier New", Courier, monospace;
+    font-family: Cutive Mono;
     font-size: 0.4rem;
     text-align: center;
     justify-content: center;
