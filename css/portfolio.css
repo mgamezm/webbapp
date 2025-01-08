@@ -2,7 +2,12 @@
 /*a lo mejor no hace falta que lo pase
 porque se modifican autometicamente cambiendo el 
 tamaño del body*/
-
+body{
+  background-color: #F3AACC;
+}
+header{
+  color: #E72380;
+}
 nav {
   display: flex;
   flex-direction: column;
@@ -28,7 +33,7 @@ nav button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
+  padding-top: -20px;
   padding-bottom: 20px;
 }
 .text {

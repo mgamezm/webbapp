@@ -4,7 +4,6 @@
     font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 5em;
-    color: #834f4f;
     padding: 10px 0;
     text-align: left;
   }
@@ -49,7 +48,6 @@
     font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 5em;
-    color: #834f4f;
     padding: 10px 0;
     text-align: left;
   }
@@ -91,7 +89,6 @@
     font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 6rem;
-    color: #834f4f;
     padding: 10px 0;
     text-align: left;
   }
@@ -132,7 +129,6 @@
     font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 6rem;
-    color: #834f4f;
     padding: 10px 0;
     text-align: left;
   }
@@ -174,7 +170,6 @@
     font-family: Edwardian Script ITC;
     font-weight: normal;
     font-size: 6rem;
-    color: #834f4f;
     padding: 10px 0;
     text-align: left;
   }
@@ -214,9 +209,8 @@
   header {
     font-family: Edwardian Script ITC;
     font-weight: normal;
-    font-size: 7rem;
-    color: #834f4f;
-    padding: 10px 0;
+    font-size: 10rem;
+    padding: -5px;
     text-align: left;
   }
   body {
@@ -252,6 +246,6 @@
   }
   h5 {
     font-family: Edwardian Script ITC;
-    font-size: 2rem;
+    font-size: 2.3rem;
   }
 }
