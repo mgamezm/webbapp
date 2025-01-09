@@ -216,6 +216,9 @@
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
   }
+  .image-container {
+    size: 20%;
+  }
 }
 
 /* Small Desktop */
@@ -270,6 +273,9 @@
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
   }
+  .image-container {
+    size: 20%;
+  }
 }
 /* Large Desktop */
 @media only screen and (min-width: 1601px) {
@@ -323,6 +329,7 @@
     font-size: 2.3rem;
     color: #e72380;
   }
-  .image-conteiner {
-    size: 20px;
+  .image-container {
+    size: 20%;
   }
+}
