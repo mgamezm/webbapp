@@ -7,6 +7,9 @@ body {
 }
 header {
   color: #e72380;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 nav {
   display: flex;
@@ -47,8 +50,12 @@ nav button:hover {
 }
 
 /* */
-.text {
-  align-content: right;
+
+text {
+  text-align: right; /* Alineación ajustada */
+  margin: 100px 20px;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 /*efecto ascii del medio*/
@@ -58,14 +65,13 @@ nav button:hover {
 .ascii-med:hover {
   color: #e72380;
 }
-
 .aboutme {
   display: block;
+  margin-bottom: 30px;
 }
 .aboutme-content {
   display: flex;
 }
-
 /*efecto de cambio de color*/
 .lamb {
   margin-right: 2%;
@@ -74,12 +80,10 @@ nav button:hover {
 .lamb:hover {
   color: #e72380;
 }
-
 /* */
 .texto-aboutme {
   text-align: left;
 }
-
 /* Estilos para los párrafos dentro de texto-aboutme */
 /*h5-en media-queries-tamaño txt*/
 
@@ -96,12 +100,13 @@ nav button:hover {
   filter: grayscale(0%);
 }
 
+/*FOOTTTEEERRRR*/
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: #f9c8df;
 }
 .footer a {
   display: flex;
@@ -131,5 +136,3 @@ nav button:hover {
 .image-container:hover img {
   filter: grayscale(0%);
 }
-
-/*editar lamb en todos los tamaños*/

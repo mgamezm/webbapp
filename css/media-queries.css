@@ -3,7 +3,7 @@
   header {
     font-family: Edwardian Script ITC;
     font-weight: normal;
-    font-size: 5em;
+    font-size: 7em;
     padding: 10px 0;
     text-align: left;
   }
@@ -51,18 +51,21 @@
   }
   h5 {
     font-family: Edwardian Script ITC;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    color: #e72380;
   }
   .image-grid img {
     /* Ajusta el tamaño aquí */
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
   }
   .image-container {
     display: flex;
+    width: 300px;
+    height: 300px;
     justify-content: center;
     align-items: center;
-    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    flex: 1 0 100%;
     margin: 5px;
     box-sizing: border-box;
   }
@@ -75,7 +78,7 @@
   header {
     font-family: Edwardian Script ITC;
     font-weight: normal;
-    font-size: 5em;
+    font-size: 10em;
     padding: 10px 0;
     text-align: left;
   }
@@ -120,18 +123,21 @@
   }
   h5 {
     font-family: Edwardian Script ITC;
-    font-size: 1.5rem;
+    font-size: 4rem;
+    color: #e72380;
   }
   .image-grid img {
     /* Ajusta el tamaño aquí */
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   .image-container {
     display: flex;
+    width: 250px;
+    height: 250px;
     justify-content: center;
     align-items: center;
-    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    flex: 1 0 calc(50% - 20px);
     margin: 5px;
     box-sizing: border-box;
   }
@@ -142,7 +148,7 @@
   header {
     font-family: Edwardian Script ITC;
     font-weight: normal;
-    font-size: 6rem;
+    font-size: 15rem;
     padding: 10px 0;
     text-align: left;
   }
@@ -187,18 +193,21 @@
   }
   h5 {
     font-family: Edwardian Script ITC;
-    font-size: 1.5rem;
+    font-size: 5rem;
+    color: #e72380;
   }
   .image-grid img {
     /* Ajusta el tamaño aquí */
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   .image-container {
     display: flex;
+    width: 250px;
+    height: 250px;
     justify-content: center;
     align-items: center;
-    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    flex: 1 0 calc(50% - 20px);
     margin: 5px;
     box-sizing: border-box;
   }
@@ -208,7 +217,7 @@
   header {
     font-family: Edwardian Script ITC;
     font-weight: normal;
-    font-size: 6rem;
+    font-size: 15rem;
     padding: 10px 0;
     text-align: left;
   }
@@ -253,15 +262,18 @@
   }
   h5 {
     font-family: Edwardian Script ITC;
-    font-size: 1.5rem;
+    font-size: 5rem;
+    color: #e72380;
   }
   .image-grid img {
     /* Ajusta el tamaño aquí */
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
   }
   .image-container {
     display: flex;
+    width: 220px;
+    height: 220px;
     justify-content: center;
     align-items: center;
     flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
@@ -270,12 +282,12 @@
   }
 }
 
-/* Small Desktop */
+/* Small Desktop ------------------------------------------------------------ */
 @media only screen and (min-width: 1201px) and (max-width: 1600px) {
   header {
     font-family: Edwardian Script ITC;
     font-weight: normal;
-    font-size: 6rem;
+    font-size: 15rem;
     padding: 10px 0;
     text-align: left;
   }
@@ -320,15 +332,18 @@
   }
   h5 {
     font-family: Edwardian Script ITC;
-    font-size: 1.5rem;
+    font-size: 5rem;
+    color: #e72380;
   }
   .image-grid img {
     /* Ajusta el tamaño aquí */
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
   }
   .image-container {
     display: flex;
+    width: 400px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
@@ -341,7 +356,7 @@
   header {
     font-family: Edwardian Script ITC;
     font-weight: normal;
-    font-size: 10rem;
+    font-size: 17rem;
     padding: -5px;
     text-align: left;
   }
@@ -352,8 +367,7 @@
     padding: 0;
   }
   .text {
-    font-size: 3rem;
-    text-align: right;
+    font-size: 3rem; /* Tamaño de fuente ajustado */
   }
   .ascii {
     font-size: 0.7rem;
@@ -385,20 +399,24 @@
   }
   h5 {
     font-family: Edwardian Script ITC;
-    font-size: 2.3rem;
+    font-size: 7rem;
     color: #e72380;
   }
+
   .image-grid img {
     /* Ajusta el tamaño aquí */
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
   }
   .image-container {
     display: flex;
+    width: 500px; /* Aumenta el tamaño aquí */
+    height: 500px;
     justify-content: center;
     align-items: center;
     flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
     margin: 5px;
     box-sizing: border-box;
   }
+ 
 }
