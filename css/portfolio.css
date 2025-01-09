@@ -104,9 +104,8 @@ text {
 .texto-aboutme {
   text-align: left;
 }
-/* Estilos para los párrafos dentro de texto-aboutme */
-/*h5-en media-queries-tamaño txt*/
 
+/*filtros img*/
 .image-container {
   display: inline-block;
   margin: 10px;
