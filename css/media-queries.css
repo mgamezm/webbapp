@@ -404,11 +404,13 @@
     font-family: Futura Std Book;
     font-size: 1.2rem;
     text-align: left;
+    margin-bottom: 10px;
   }
   h5 {
     font-family: Edwardian Script ITC;
     font-size: 7rem;
     color: #e72380;
+    margin-top: 20px;
   }
   .image-grid {
     display: flex;
@@ -423,9 +425,9 @@
     box-sizing: border-box;
   }
   .image-container img {
-    width: 400px; /* Ajusta el tamaño aquí */ 
+    width: 400px; /* Ajusta el tamaño aquí */
     height: 400px;
-  
+
     cursor: pointer;
   }
 }
