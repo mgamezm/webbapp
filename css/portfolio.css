@@ -150,5 +150,15 @@ text {
   filter: brightness(0) saturate(100%) invert(28%) sepia(81%) saturate(2766%)
     hue-rotate(306deg) brightness(82%) contrast(97%);
 }
-
-
+.imgport {
+  width: 40%;
+  height: auto;
+  margin: 10px;
+  justify-items: center;
+}
+.container-imgport{
+  display: flex;
+}
+.back{
+  margin-left: 7px;
+}
