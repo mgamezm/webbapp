@@ -28,16 +28,16 @@
     margin-right: 2;
     display: flex;
     justify-content: center;
-    color: #000000;
+    color: #e72380;
   }
   .ascii-med {
     font-family: Cutive Mono;
-    font-size: 0.2rem;
+    font-size: 0.13rem;
     text-align: center;
     justify-content: center;
     align-items: center;
     padding: 10%;
-    color: #000000;
+    color: #e72380;
   }
   .aboutme-content {
     display: flex;
@@ -47,11 +47,24 @@
     font-family: Cutive Mono;
     font-size: 0.3rem;
     text-align: left;
-    color: #000000;
+    color: #e72380;
   }
   h5 {
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
+  }
+  .image-grid img {
+    /* Ajusta el tamaño aquí */
+    width: 100px;
+    height: 100px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    margin: 5px;
+    box-sizing: border-box;
   }
 }
 
@@ -109,6 +122,19 @@
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
   }
+  .image-grid img {
+    /* Ajusta el tamaño aquí */
+    width: 100px;
+    height: 100px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    margin: 5px;
+    box-sizing: border-box;
+  }
 }
 
 /* Tablet Portrait */
@@ -163,6 +189,19 @@
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
   }
+  .image-grid img {
+    /* Ajusta el tamaño aquí */
+    width: 100px;
+    height: 100px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    margin: 5px;
+    box-sizing: border-box;
+  }
 }
 /* Tablet Landscape */
 @media only screen and (min-width: 801px) and (max-width: 1200px) and (orientation: landscape) {
@@ -216,8 +255,18 @@
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
   }
+  .image-grid img {
+    /* Ajusta el tamaño aquí */
+    width: 180px;
+    height: 180px;
+  }
   .image-container {
-    size: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    margin: 5px;
+    box-sizing: border-box;
   }
 }
 
@@ -273,8 +322,18 @@
     font-family: Edwardian Script ITC;
     font-size: 1.5rem;
   }
+  .image-grid img {
+    /* Ajusta el tamaño aquí */
+    width: 200px;
+    height: 200px;
+  }
   .image-container {
-    size: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    margin: 5px;
+    box-sizing: border-box;
   }
 }
 /* Large Desktop */
@@ -329,7 +388,17 @@
     font-size: 2.3rem;
     color: #e72380;
   }
+  .image-grid img {
+    /* Ajusta el tamaño aquí */
+    width: 200px;
+    height: 200px;
+  }
   .image-container {
-    size: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    margin: 5px;
+    box-sizing: border-box;
   }
 }
