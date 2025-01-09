@@ -12,7 +12,7 @@ header {
   top: 0;
   z-index: 1000;
 }
-section{
+section {
   margin-bottom: 15px;
 }
 
@@ -71,6 +71,7 @@ nav button:hover {
 /* */
 
 text {
+  font-size: 4rem;
   text-align: right; /* Alineación ajustada */
   margin: 100px 20px;
   opacity: 0;
@@ -160,9 +161,9 @@ text {
   margin: 10px;
   justify-items: center;
 }
-.container-imgport{
+.container-imgport {
   display: flex;
 }
-.back{
+.back {
   margin-left: 7px;
 }
