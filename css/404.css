@@ -7,7 +7,6 @@
 .error-message {
     font-family: "Pixelify Sans", sans-serif;
     font-size: 30rem ;
-    background-color: rgb(255, 250, 250);
     padding-left: 10px;
     padding-bottom: 30px;
     animation: marquee 7s linear infinite ;
