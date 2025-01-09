@@ -413,23 +413,19 @@
   .image-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
   }
-
   .image-container {
-    display: flex;
+    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
+    margin: 5px;
     width: 500px; /* Aumenta el tamaño aquí */
     height: 500px;
     justify-content: center;
-    align-items: center;
-    flex: 1 0 calc(33.333% - 10px); /* Tres columnas con espacio entre ellas */
-    margin: 5px;
     box-sizing: border-box;
   }
-
-  .image-grid img {
-    width: 400px; /* Ajusta el tamaño aquí */
+  .image-container img {
+    width: 400px; /* Ajusta el tamaño aquí */ 
     height: 400px;
+  
     cursor: pointer;
   }
 }
