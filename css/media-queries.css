@@ -30,6 +30,10 @@
     justify-content: center;
     color: #4d0024;
   }
+  nav button {
+    text-decoration: underline;
+  }
+
   .ascii-med {
     font-family: Cutive Mono;
     font-size: 0.13rem;
@@ -93,6 +97,10 @@
     font-size: 2rem;
     text-align: right;
   }
+  nav button {
+    text-decoration: underline;
+  }
+
   .ascii {
     font-family: Cutive Mono;
     font-size: 0.4rem;

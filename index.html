@@ -10,6 +10,7 @@
     <!--favicon-->
     <link rel="icon" href="favicon/favicon.svg" type="image/x-icon" />
     <!--stylejs-->
+    <link href="path/to/lightbox.css" rel="stylesheet">
   </head>
 
   <header>Alfie</header>
@@ -74,8 +75,8 @@
 
     <!--bottones-->
     <nav>
-      <button onclick="scrollToSection('aboutme')">01. About me</button>
-      <button onclick="scrollToSection('portfolio')">02. Portfolio</button>
+      <button class="blink-button" onclick="scrollToSection('aboutme')">01. About me</button>
+      <button class="blink-button" onclick="scrollToSection('portfolio')">02. Portfolio</button>
     </nav>
     <!--script-->
     <script>
@@ -257,6 +258,7 @@
           />
         </div>
       </div>
+      <script src="path/to/lightbox.js"></script>
        <!--Carrousel NO ME ESTA FUNCIONANDO 
       <div id="myModal" class="modal">
         <div class="modal-content">
@@ -345,6 +347,7 @@
             />
           </div>
         </div> -->
+        
       </div>
       <script>
         function openModal(carouselId) {

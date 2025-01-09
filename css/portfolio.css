@@ -32,6 +32,20 @@ nav button {
 nav button:hover {
   text-decoration: underline;
 }
+.blink-button {
+  animation: blink 2s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
 .introduction-content {
   display: flex;
@@ -135,4 +149,16 @@ text {
 }
 .image-container:hover img {
   filter: grayscale(0%);
+}
+
+.carousel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.carousel img {
+  margin: 10px;
+  width: 200px; /* Ajusta el tamaño según sea necesario */
+  cursor: pointer;
 }
