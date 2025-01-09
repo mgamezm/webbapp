@@ -410,12 +410,12 @@
     font-size: 7rem;
     color: #e72380;
   }
-
-  .image-grid img {
-    /* Ajusta el tamaño aquí */
-    width: 400px;
-    height: 400px;
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+
   .image-container {
     display: flex;
     width: 500px; /* Aumenta el tamaño aquí */
@@ -426,5 +426,10 @@
     margin: 5px;
     box-sizing: border-box;
   }
- 
+
+  .image-grid img {
+    width: 400px; /* Ajusta el tamaño aquí */
+    height: 400px;
+    cursor: pointer;
+  }
 }

@@ -10,7 +10,6 @@
     <!--favicon-->
     <link rel="icon" href="favicon/favicon.svg" type="image/x-icon" />
     <!--stylejs-->
-    <link href="path/to/lightbox.css" rel="stylesheet">
   </head>
 
   <header>Alfie</header>
@@ -75,8 +74,12 @@
 
     <!--bottones-->
     <nav>
-      <button class="blink-button" onclick="scrollToSection('aboutme')">01. About me</button>
-      <button class="blink-button" onclick="scrollToSection('portfolio')">02. Portfolio</button>
+      <button class="blink-button" onclick="scrollToSection('aboutme')">
+        01. About me
+      </button>
+      <button class="blink-button" onclick="scrollToSection('portfolio')">
+        02. Portfolio
+      </button>
     </nav>
     <!--script-->
     <script>
@@ -212,8 +215,209 @@
 
     <section id="portfolio">
       <h5>02. Portfolio</h5>
-
-      <!--imagenes-->
+  
+      <div class="image-grid">
+        <div class="image-container">
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/calima/portada.jpg?updatedAt=1736340167211"
+            target="_blank"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/calima/portada.jpg?updatedAt=1736340167211"
+              alt="Imagen 1"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/hadas/raspberryfae%20copia.jpg?updatedAt=1736340144468"
+            target="_blank"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/hadas/raspberryfae%20copia.jpg?updatedAt=1736340144468"
+              alt="Imagen 2"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mas%20lib/Mesa%20de%20trabajo%201@4x-100.jpg?updatedAt=1736340138576"
+            target="_blank"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/mas%20lib/Mesa%20de%20trabajo%201@4x-100.jpg?updatedAt=1736340138576"
+              alt="Imagen 3"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%2014.png?updatedAt=1736340129509"
+            target="_blank"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%2014.png?updatedAt=1736340129509"
+              alt="Imagen 4"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/libros%20coleccion/Mesa%20de%20trabajo%201.png?updatedAt=1736336852848"
+            target="_blank"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/libros%20coleccion/Mesa%20de%20trabajo%201.png?updatedAt=1736336852848"
+              alt="Imagen 5"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/portycont-mirilla%20copia.jpg?updatedAt=1736435455500"
+            target="_blank"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/portycont-mirilla%20copia.jpg?updatedAt=1736435455500"
+              alt="Imagen 6"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- otro fail
+      <script src="path/to/lightbox.js"></script>
+      <div class="image-grid">
+        <div class="image-container" id="carousel">
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/hadas/raspberryfae%20copia.jpg?updatedAt=1736340144468"
+            data-lightbox="gallery1"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/hadas/raspberryfae%20copia.jpg?updatedAt=1736340144468"
+              alt="Imagen 1"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/hadas/arandanofae%20copia.jpg?updatedAt=1736340144496"
+            data-lightbox="gallery1"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/hadas/raspberryfae%20copia.jpg?updatedAt=1736340144468"
+            data-lightbox="gallery1"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/mirilla-%20para%20imposicioI%CC%80_n%20jpeg5.jpg?updatedAt=1736304081245"
+            data-lightbox="gallery1"
+          ></a>
+        </div>
+        <div class="image-container">
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/portycont-mirilla.jpg?updatedAt=173642247745"
+            data-lightbox="gallery2"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/portycont-mirilla.jpg?updatedAt=173642247745"
+              alt="Imagen 2"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/mirilla-%20para%20imposicioI%CC%80_n%20jpeg7.jpg?updatedAt=1736304125301"
+            data-lightbox="gallery2"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/mirilla-%20para%20imposicioI%CC%80_n%20jpeg19.jpg?updatedAt=1736304043591"
+            data-lightbox="gallery2"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mirirlla/mirilla-%20para%20imposicio%CC%81n%20jpeg30.jpg?updatedAt=1736304122942"
+            data-lightbox="gallery2"
+          ></a>
+        </div>
+        <div class="image-container">
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/libros%20coleccion/Mesa%20de%20trabajo%201.png?updatedAt=173633685284"
+            data-lightbox="gallery3"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/libros%20coleccion/Mesa%20de%20trabajo%201.png?updatedAt=173633685284"
+              alt="Imagen 3"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/libros%20coleccion/coleccion%20portadas%20y%20contraportadas3.jpg?updatedAt=1736336852901"
+            data-lightbox="gallery3"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/libros%20coleccion/coleccion%20portadas%20y%20contraportadas.jpg?updatedAt=1736336852878"
+            data-lightbox="gallery3"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/libros%20coleccion/coleccion%20portadas%20y%20contraportadas2.jpg?updatedAt=1736336852827"
+            data-lightbox="gallery3"
+          ></a>
+        </div>
+        <div class="image-container">
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mas%20lib/Mesa%20de%20trabajo%201@4x-100.jpg?updatedAt=173634013857"
+            data-lightbox="gallery4"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/mas%20lib/Mesa%20de%20trabajo%201@4x-100.jpg?updatedAt=173634013857"
+              alt="Imagen 4"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mas%20lib/vivienne.jpg?updatedAt=1736340138148"
+            data-lightbox="gallery4"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mas%20lib/mugler.jpg?updatedAt=1736340137514"
+            data-lightbox="gallery4"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/mas%20lib/alex.jpg?updatedAt=1736340136249"
+            data-lightbox="gallery4"
+          ></a>
+        </div>
+        <div class="image-container">
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/calima/portada.jpg?updatedAt=1736340167211"
+            data-lightbox="gallery5"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/calima/portada.jpg?updatedAt=1736340167211"
+              alt="Imagen 5"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/calima/Slide%2016_9%20-%2099.jpg?updatedAt=1736340167035"
+            data-lightbox="gallery5"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/calima/packaging.jpg?updatedAt=1736340166884"
+            data-lightbox="gallery5"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/calima/0de6a487ebdcf1b65401c198ba231899%20copia.jpg?updatedAt=1736340166425"
+            data-lightbox="gallery5"
+          ></a>
+        </div>
+        <div class="image-container">
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%201.png?updatedAt=1736340127702"
+            data-lightbox="gallery6"
+          >
+            <img
+              src="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%201.png?updatedAt=1736340127702"
+              alt="Imagen 6"
+            />
+          </a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%2010.png?updatedAt=1736340129449"
+            data-lightbox="gallery6"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%204.png?updatedAt=1736340127699"
+            data-lightbox="gallery6"
+          ></a>
+          <a
+            href="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%2014.png?updatedAt=1736340129509"
+            data-lightbox="gallery6"
+          ></a>
+        </div>
+      </div>
+    -->
+      <!--imagenes
       <div class="image-grid">
         <div class="image-container" onclick="openModal('carousel1')">
           <img
@@ -258,8 +462,9 @@
           />
         </div>
       </div>
-      <script src="path/to/lightbox.js"></script>
-       <!--Carrousel NO ME ESTA FUNCIONANDO 
+      -->
+      <!--Carrousel NO ME ESTA FUNCIONANDO 
+
       <div id="myModal" class="modal">
         <div class="modal-content">
           <div id="carousel1" class="carousel">
@@ -346,17 +551,9 @@
               src="https://ik.imagekit.io/mgamezm/portfolio/KeithHaring/Mesa%20de%20trabajo%2014.png?updatedAt=1736340129509"
             />
           </div>
-        </div> -->
+        </div> 
         
-      </div>
-      <script>
-        function openModal(carouselId) {
-            var modal = document.getElementById("myModal");
-            var carousels = document.querySelectorAll('.carousel');
-            carousels.forEach(carousel => carousel.style.display = 'none');
-            var currentCarousel = document.getElementById(carouselId);
-              
-      </script>
+      </div>-->
     </section>
   </body>
 
